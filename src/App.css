@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.job-board {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+.job:last-child {
+  border-bottom: none;
+}
+
+h1 {
+  color: #007bff;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+p {
+  margin: 0.25rem 0;
+}
